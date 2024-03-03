@@ -1,0 +1,28 @@
+public class MainEx3 {
+    public static void main(String[] args) {
+        RedBlackBST<Integer, String> st = new RedBlackBST<Integer, String>();
+        /*
+        st.put(70, "");
+        st.put(19, "");
+        st.put(11, "");
+        st.put(89, "");
+        st.put(13, "");
+        st.put(17, "");
+        */
+        
+        st.put(23, "");
+        st.put(15, "");
+        st.put(41, "");
+        st.put(11, "");
+        st.put(13, "");
+        st.put(14, "");
+        st.put(50, "");
+        st.put(38, "");
+
+        st.mostra();
+        
+        System.out.println("");
+        System.out.println("Altura negra do nó 13:");
+        System.out.println(st.alturaNegra(13));
+    }
+}
